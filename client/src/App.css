@@ -1,0 +1,52 @@
+html, body, #root {
+  height: auto;
+}
+
+.App {
+  padding: 1rem;
+  height: inherit;
+  background: linear-gradient(90deg, rgba(238,238,174,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+
+.movies-wrapper {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card-container {
+  width: 350px;
+  height: 550px;
+  padding: 1rem;
+  background: white;
+  border-radius: 1rem;
+  display: grid;
+  align-content: space-between;
+  
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-block-end: 0.25em;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+.content-wrapper .release-year {
+   display: flex;
+   gap: 1rem;
+}
+
+.card-container img {
+  width: 100%;
+  height: 430px;
+}
+
+.card-container .not-available {
+  height: auto;
+}
